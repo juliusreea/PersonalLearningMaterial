@@ -1,0 +1,3 @@
+knyga, nuotykiu,1900
+antra knyga, romanas,1988
+trecia knyga, moksline fantastika,1902
