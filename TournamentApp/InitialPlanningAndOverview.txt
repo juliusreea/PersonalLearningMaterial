@@ -1,0 +1,71 @@
+1.How many players on the tournament? is it variable?
+-variable
+
+2.If tournament has less than the full complement of players,
+how we handle it?
+-
+3.Should the ordering of who plays each other be random or ordered
+by input order?
+-the ordering of the tournament should be random
+
+4.Should we schedule the games or are they just played whenever?
+The games should be played in whatever order and whenever the players
+want to play?
+
+5.If the games are scheduled, how does the system know when to 
+schedule games for?
+-They are not scheduled so we don't care.
+
+6.If the games are played whenever, can a game from the second round
+be played before the first round is complete?
+-No. Each round should be fully completed before the next round is 
+complete.
+
+7.Does the system need to store a score of some kind or just who won?
+Storing a simple score would be nice. Just a number for each player.
+That way, the tracker can be flexible enoughto handle a checkers tournament
+(the winner would have a 1 and the loser a 0) or a basketball tournament
+8.What type of front-end should this system have(form, webpage, app, etc)?
+
+-The system should be a desktop system for now, but down the road 
+we might want to turn it into an app or website.
+(should push a lot of our code in some sort of dll or storage, 
+where we can disconnect user interface easily and put new one on)
+
+9.Where will the date be stored?
+-Ideally, the data should be stored in a Microsoft SQL database, but
+please put in an option to store to a text file instead.
+
+10.Will this system handle entry fees, prizes or other payouts?
+-Yes. The tournament should have the option of charging an entry fee.
+Prizes should also be an option, where the tournament administrator
+chooses how much money to award a variable number of places. The
+total cash amount should not exceed the income from the tournament.
+A percentage-based system would also be nice to specify.
+
+11.What type of reporting is needed?
+-A simple report specifying the outcome of games per round as well as a 
+report that specifies who won and how much they won. These can be 
+just displayed on a form or they can be emailed to tournament 
+competitors and the administrator.
+
+12.Who can fill in the results of a game?
+-Anyone using the application shold be able to fill in the game score
+
+13.Are there varying levels of access?
+-No. The only method of varied access is if competitors are not
+allowed into the application and instead, they do everything via
+email.
+
+14.Should this system contact users about upcoming games?
+-Yes, the system should email users that they are due to play in a
+round as well as who they are scheduled to play.(generic)
+
+15.Is each player on their own or can teams use this tournament 
+tracker?
+-The tournament tracker should be able to handle the addition of 
+other members. All members should be treated as equals in that they 
+all get tournament emails. Teams should also be able to name their 
+team.
+
+
