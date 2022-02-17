@@ -1,0 +1,16 @@
+C:\Users\Dell\source\repos\PersonalLearningMaterial\DelegatesAnoniminiai\obj\Debug\net5.0\DelegatesAnoniminiai.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\PersonalLearningMaterial\DelegatesAnoniminiai\obj\Debug\net5.0\DelegatesAnoniminiai.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\source\repos\PersonalLearningMaterial\DelegatesAnoniminiai\obj\Debug\net5.0\DelegatesAnoniminiai.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\PersonalLearningMaterial\DelegatesAnoniminiai\obj\Debug\net5.0\DelegatesAnoniminiai.AssemblyInfo.cs
+C:\Users\Dell\source\repos\PersonalLearningMaterial\DelegatesAnoniminiai\obj\Debug\net5.0\DelegatesAnoniminiai.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\PersonalLearningMaterial\DelegatesAnoniminiai\bin\Debug\net5.0\DelegatesAnoniminiai.exe
+C:\Users\Dell\source\repos\PersonalLearningMaterial\DelegatesAnoniminiai\bin\Debug\net5.0\DelegatesAnoniminiai.deps.json
+C:\Users\Dell\source\repos\PersonalLearningMaterial\DelegatesAnoniminiai\bin\Debug\net5.0\DelegatesAnoniminiai.runtimeconfig.json
+C:\Users\Dell\source\repos\PersonalLearningMaterial\DelegatesAnoniminiai\bin\Debug\net5.0\DelegatesAnoniminiai.runtimeconfig.dev.json
+C:\Users\Dell\source\repos\PersonalLearningMaterial\DelegatesAnoniminiai\bin\Debug\net5.0\DelegatesAnoniminiai.dll
+C:\Users\Dell\source\repos\PersonalLearningMaterial\DelegatesAnoniminiai\bin\Debug\net5.0\ref\DelegatesAnoniminiai.dll
+C:\Users\Dell\source\repos\PersonalLearningMaterial\DelegatesAnoniminiai\bin\Debug\net5.0\DelegatesAnoniminiai.pdb
+C:\Users\Dell\source\repos\PersonalLearningMaterial\DelegatesAnoniminiai\obj\Debug\net5.0\DelegatesAnoniminiai.dll
+C:\Users\Dell\source\repos\PersonalLearningMaterial\DelegatesAnoniminiai\obj\Debug\net5.0\ref\DelegatesAnoniminiai.dll
+C:\Users\Dell\source\repos\PersonalLearningMaterial\DelegatesAnoniminiai\obj\Debug\net5.0\DelegatesAnoniminiai.pdb
+C:\Users\Dell\source\repos\PersonalLearningMaterial\DelegatesAnoniminiai\obj\Debug\net5.0\DelegatesAnoniminiai.genruntimeconfig.cache

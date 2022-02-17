@@ -1,0 +1,5 @@
+C:\Users\Dell\source\repos\PersonalLearningMaterial\AnoniminiaiDelegatai\obj\Debug\net5.0\AnoniminiaiDelegatai.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\PersonalLearningMaterial\AnoniminiaiDelegatai\obj\Debug\net5.0\AnoniminiaiDelegatai.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\source\repos\PersonalLearningMaterial\AnoniminiaiDelegatai\obj\Debug\net5.0\AnoniminiaiDelegatai.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\PersonalLearningMaterial\AnoniminiaiDelegatai\obj\Debug\net5.0\AnoniminiaiDelegatai.AssemblyInfo.cs
+C:\Users\Dell\source\repos\PersonalLearningMaterial\AnoniminiaiDelegatai\obj\Debug\net5.0\AnoniminiaiDelegatai.csproj.CoreCompileInputs.cache

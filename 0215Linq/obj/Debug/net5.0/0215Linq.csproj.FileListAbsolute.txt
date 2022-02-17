@@ -1,0 +1,16 @@
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0215Linq\bin\Debug\net5.0\0215Linq.exe
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0215Linq\bin\Debug\net5.0\0215Linq.deps.json
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0215Linq\bin\Debug\net5.0\0215Linq.runtimeconfig.json
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0215Linq\bin\Debug\net5.0\0215Linq.runtimeconfig.dev.json
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0215Linq\bin\Debug\net5.0\0215Linq.dll
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0215Linq\bin\Debug\net5.0\ref\0215Linq.dll
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0215Linq\bin\Debug\net5.0\0215Linq.pdb
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0215Linq\obj\Debug\net5.0\0215Linq.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0215Linq\obj\Debug\net5.0\0215Linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0215Linq\obj\Debug\net5.0\0215Linq.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0215Linq\obj\Debug\net5.0\0215Linq.AssemblyInfo.cs
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0215Linq\obj\Debug\net5.0\0215Linq.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0215Linq\obj\Debug\net5.0\0215Linq.dll
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0215Linq\obj\Debug\net5.0\ref\0215Linq.dll
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0215Linq\obj\Debug\net5.0\0215Linq.pdb
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0215Linq\obj\Debug\net5.0\0215Linq.genruntimeconfig.cache

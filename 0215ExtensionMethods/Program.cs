@@ -10,9 +10,10 @@ namespace _0215ExtensionMethods
         static void Main(string[] args)
         {
             (-2).IsValuePositive().PrintToConsole();
-            8.IsValueEven().PrintToConsole();
-            ("juliusVaigauskas" "1986", "gmail.com").PrintEmail().PrintToConsole();
-            "grybukaras".IsThereSpacesInSentence().PrintToConsole();
+            9.IsValueEven().PrintToConsole();
+            ("juliusVaigauskas", "1986", "gmail.com").PrintEmail().PrintToConsole();
+
+                "grybu karas".IsThereSpacesInSentence().PrintToConsole();
             "this is demo".PrintToConsole();
             var list = new List<int> (new[] { 1, 2, 3, 4, 5, 6});
             list.FindAndReturnIfEqual(2).PrintToConsole();
