@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace DelegatesAnoniminiai.Printer
 {
-    public static class ProgramBase
+    internal static class ProgramBase
     {
         public static void Printer(this string input)
         {

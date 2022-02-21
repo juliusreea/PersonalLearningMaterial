@@ -4,15 +4,36 @@ using System.Collections.Generic;
 
 namespace DelegatesDemo
 {
-    internal class Program
+    public class Program
     {
         
         static ShoppingCartModel cart = new ShoppingCartModel();
         static void Main(string[] args)
         {
             PopulateCartWithDemo();
+            Functionalities functionalities = new Functionalities();
 
-            Console.WriteLine($"The total for the cart is {cart.GenerateTotal(TotalAmountIs):C2}");
+            Console.WriteLine($"The total for the cart is {cart.GenerateTotal(TotalAmountIs, functionalities.CalculateLeveledDiscount, functionalities.CartViewer, AlertUser):C2}");
+
+            decimal total = cart.GenerateTotal((subTotal) => Console.WriteLine($"total for cart it {subTotal}"),
+                (products, subTotal) =>
+                {
+                    if (products.Count > 3)
+                    {
+                        return subTotal * 0.5M;
+                    }
+                    else
+                    {
+                        return subTotal;
+                    }
+                },
+                (products) =>
+                {
+                    foreach(var product in products)
+                    {
+                        Console.WriteLine($"{product.Name}");
+                    }
+                },(message)=>Console.WriteLine(message));
 
             Console.WriteLine();
             Console.WriteLine("Press any key to exit application");
@@ -22,6 +43,11 @@ namespace DelegatesDemo
         {
             Console.WriteLine($"Total amount is {totalAmount:C2}");
         }
+        public static void AlertUser(string message)
+        {
+            Console.WriteLine(message);
+        }
+        
 
         public static void PopulateCartWithDemo() 
         {

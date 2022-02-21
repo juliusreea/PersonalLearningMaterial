@@ -12,29 +12,24 @@ namespace DemoLibrary
 
         public List<ProductModel> List = new List<ProductModel>();
 
-        public decimal GenerateTotal(MentionDiscount mentionDiscount)
+        public decimal GenerateTotal(MentionDiscount mentionDiscount,
+            Func<List<ProductModel>, decimal,decimal> calculateDiscounterTotal,
+            Action<List<ProductModel>> displayItemsInCart,
+            Action<string> mentionsDiscounting)
         {
             var subTotal = List.Sum(x=>x.Price);
 
+            var sortedList = List.OrderBy(x => x.Price).ToList();
+            displayItemsInCart(sortedList);
+
             mentionDiscount(subTotal);
 
-            if(subTotal > 100)
-            {
-                return subTotal * 0.8M;
-            }
-            else if (subTotal > 50)
-            {
-                return subTotal * 0.85M;
-            }
-            else if (subTotal > 20)
-            {
-                return subTotal * 0.9M;
-            }
-            else
-            {
-                return subTotal;
-            }
-            return subTotal;
+            mentionsDiscounting("we are applying discount");
+
+            
+            
+            return calculateDiscounterTotal(List,subTotal);
         }
+        
     }
 }

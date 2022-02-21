@@ -85,6 +85,44 @@ namespace _0215Linq
                 Console.Write($"{person}, ");
             }
             Console.WriteLine();
+
+            var personsWithPets = new List<PersonWithPet>();
+            
+
+            personsWithPets.Add(new PersonWithPet("mike", 
+                new List<Pet>() 
+                { 
+                    new Pet("mikis",2), 
+                    new Pet("smikis",6), 
+                    new Pet("vikis",8)
+                }));
+            personsWithPets.Add(new PersonWithPet("spike",
+                new List<Pet>()
+                {
+                    new Pet("vilkas",2),
+                    new Pet("amsius",6),
+                    new Pet("brisius",1)
+                }));
+            personsWithPets.Add(new PersonWithPet("vycka",
+                new List<Pet>()
+                {
+                    new Pet("akukis",8),
+                    new Pet("gugis",7),
+                    new Pet("mukas",9)
+                }));
+            var pets = personsWithPets.SelectMany(x => x.Pets);
+
+            foreach (var pet in pets)
+            {
+                Console.WriteLine(pet.Name);
+            }
+            Console.WriteLine();
+            var petByAge = personsWithPets.SelectMany(x => x.Pets).Where(x => x.Age > 5).Where(x => x.Name.StartsWith("a"));
+            Func<string, string> printUpper = p => p.ToUpper();
+            foreach (var pet in petByAge)
+            {
+                Console.WriteLine($"{printUpper(pet.Name)}, {pet.Age}");
+            }
         }
     }
 }
