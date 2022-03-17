@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5091cea7-cdc1-4e1c-87a8-d735383b2d52": {
+      "ProjectGuid": "5091cea7-cdc1-4e1c-87a8-d735383b2d52",
+      "DisplayName": "ATM",
+      "ColorIndex": 0
+    },
+    "63bd923f-cc01-459a-b189-1473866faf29": {
+      "ProjectGuid": "63bd923f-cc01-459a-b189-1473866faf29",
+      "DisplayName": "ATMWF",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

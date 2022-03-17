@@ -1,0 +1,16 @@
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0222Interface\obj\Debug\net5.0\0222Interface.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0222Interface\obj\Debug\net5.0\0222Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0222Interface\obj\Debug\net5.0\0222Interface.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0222Interface\obj\Debug\net5.0\0222Interface.AssemblyInfo.cs
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0222Interface\obj\Debug\net5.0\0222Interface.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0222Interface\bin\Debug\net5.0\0222Interface.exe
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0222Interface\bin\Debug\net5.0\0222Interface.deps.json
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0222Interface\bin\Debug\net5.0\0222Interface.runtimeconfig.json
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0222Interface\bin\Debug\net5.0\0222Interface.runtimeconfig.dev.json
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0222Interface\bin\Debug\net5.0\0222Interface.dll
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0222Interface\bin\Debug\net5.0\ref\0222Interface.dll
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0222Interface\bin\Debug\net5.0\0222Interface.pdb
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0222Interface\obj\Debug\net5.0\0222Interface.dll
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0222Interface\obj\Debug\net5.0\ref\0222Interface.dll
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0222Interface\obj\Debug\net5.0\0222Interface.pdb
+C:\Users\Dell\source\repos\PersonalLearningMaterial\0222Interface\obj\Debug\net5.0\0222Interface.genruntimeconfig.cache

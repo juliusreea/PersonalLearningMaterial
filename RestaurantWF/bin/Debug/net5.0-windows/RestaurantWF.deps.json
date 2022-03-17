@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "RestaurantWF/1.0.0": {
+        "dependencies": {
+          "RestaurantOrderingApp": "1.0.0"
+        },
+        "runtime": {
+          "RestaurantWF.dll": {}
+        }
+      },
+      "RestaurantOrderingApp/1.0.0": {
+        "runtime": {
+          "RestaurantOrderingApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RestaurantWF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RestaurantOrderingApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -26,8 +26,6 @@ namespace DemoLibrary
 
             mentionsDiscounting("we are applying discount");
 
-            
-            
             return calculateDiscounterTotal(List,subTotal);
         }
         

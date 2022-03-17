@@ -1,0 +1,9 @@
+List`1
+ Triangle
+ Area is 8
+ Quadriteral
+ Area is 24
+ Pentagod
+ Area is 27,52763840942347
+ Hexagon
+ Area is 41,569219381653056

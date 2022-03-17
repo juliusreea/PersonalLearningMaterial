@@ -1,0 +1,16 @@
+C:\Users\Dell\source\repos\PersonalLearningMaterial\ATM\obj\Debug\net5.0\ATM.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\PersonalLearningMaterial\ATM\obj\Debug\net5.0\ATM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\source\repos\PersonalLearningMaterial\ATM\obj\Debug\net5.0\ATM.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\PersonalLearningMaterial\ATM\obj\Debug\net5.0\ATM.AssemblyInfo.cs
+C:\Users\Dell\source\repos\PersonalLearningMaterial\ATM\obj\Debug\net5.0\ATM.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\PersonalLearningMaterial\ATM\bin\Debug\net5.0\ATM.exe
+C:\Users\Dell\source\repos\PersonalLearningMaterial\ATM\bin\Debug\net5.0\ATM.deps.json
+C:\Users\Dell\source\repos\PersonalLearningMaterial\ATM\bin\Debug\net5.0\ATM.runtimeconfig.json
+C:\Users\Dell\source\repos\PersonalLearningMaterial\ATM\bin\Debug\net5.0\ATM.runtimeconfig.dev.json
+C:\Users\Dell\source\repos\PersonalLearningMaterial\ATM\bin\Debug\net5.0\ATM.dll
+C:\Users\Dell\source\repos\PersonalLearningMaterial\ATM\bin\Debug\net5.0\ref\ATM.dll
+C:\Users\Dell\source\repos\PersonalLearningMaterial\ATM\bin\Debug\net5.0\ATM.pdb
+C:\Users\Dell\source\repos\PersonalLearningMaterial\ATM\obj\Debug\net5.0\ATM.dll
+C:\Users\Dell\source\repos\PersonalLearningMaterial\ATM\obj\Debug\net5.0\ref\ATM.dll
+C:\Users\Dell\source\repos\PersonalLearningMaterial\ATM\obj\Debug\net5.0\ATM.pdb
+C:\Users\Dell\source\repos\PersonalLearningMaterial\ATM\obj\Debug\net5.0\ATM.genruntimeconfig.cache
