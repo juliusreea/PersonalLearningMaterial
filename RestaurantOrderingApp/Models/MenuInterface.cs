@@ -9,7 +9,6 @@ namespace RestaurantOrderingApp
     public class MenuInterface
     {
         ConsoleInfo consoleInfo = new ConsoleInfo();
-        FileService fileService = new FileService();
         FoodRepo foodRepo = new FoodRepo();
         DrinkRepo drinkRepo = new DrinkRepo();
         TableRepo tableRepo = new TableRepo();
@@ -26,10 +25,7 @@ namespace RestaurantOrderingApp
                 tableRepo.DisplayAll();
                 ("Please select table or press x to exit").Printer();
                 string tableSelect = Console.ReadLine().Trim().ToLower();
-                if (tableSelect == "x")
-                {
-                    Environment.Exit(0);
-                }
+                if (tableSelect == "x") { Environment.Exit(0); }
                 else if(!int.TryParse(tableSelect, out int tableSelected) || tableSelected < 1 || tableSelected > 5)
                 {
                     consoleInfo.WrongInput();
@@ -42,7 +38,7 @@ namespace RestaurantOrderingApp
                     if (int.TryParse(Console.ReadLine(), out int tableMenuInput)) { } else { consoleInfo.WrongInput(); };
                     switch (tableMenuInput)
                     {
-                        case 1:                                  //seating customers at the table
+                        case 1:                                  //seating customers at the table 
                             while (true)
                             {
                                 Console.WriteLine("enter number of customers at the table");
@@ -60,7 +56,7 @@ namespace RestaurantOrderingApp
                                 Console.Clear();
                                 foodRepo.DisplayFoods();
 
-                                Console.WriteLine("please select food to add or n to return");
+                                ("please select food to add or n to return").Printer();
                                 string foodSelect = Console.ReadLine();
                                 if (foodSelect == "n") { break; }
                                 else if (!int.TryParse(foodSelect, out int foodOrdered)||foodOrdered<=0||foodOrdered>foodRepo.Foods.Count)
@@ -81,7 +77,7 @@ namespace RestaurantOrderingApp
                                 Console.Clear();
                                 drinkRepo.DisplayDrinks();
 
-                                Console.WriteLine("please select drink to add or n to return");
+                                ("please select drink to add or n to return").Printer();
                                 string drinkSelect = Console.ReadLine();
                                 if (drinkSelect == "n") { break; }
                                 else if (!int.TryParse(drinkSelect, out int drinkOrdered) || drinkOrdered <= 0 || drinkOrdered > foodRepo.Foods.Count)
@@ -107,7 +103,7 @@ namespace RestaurantOrderingApp
                             ("check has been printed").Printer();
                             mailingService.MailSendInquiry();
                             break;
-                        case 6:                         //exit
+                        case 6:                         //exit table menu
                             break;
                             
                     }

@@ -1,5 +1,4 @@
 Hamburger, price: 6,5, items ordered: 1
-Water, price: 2, items ordered: 1
 
-2022-03-18 05:13:36
-total amount of 8,5 euro
+2022-03-18 10:47:00
+total amount of 6,5 euro
