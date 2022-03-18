@@ -14,18 +14,16 @@ namespace RestaurantOrderingApp.Models
         {
             Orders = new List<string>();
         }
-
-        public readonly string _path = @"C:\Users\Dell\source\repos\PersonalLearningMaterial\RestaurantOrderingApp\CSVfiles\";
+        FilePath filePath = new FilePath("CustomerCheck.txt");
         public void PrintCheck(Table table)
         {
             foreach (var order in table.Orders)
             {
                 Orders.Add($"{order.Name}, price: {order.Price}, items ordered: {order.Quantity}");
             }
-            string path = $"{_path}CustomerCheck.txt";
-            File.WriteAllLines(path, Orders);
-            File.AppendAllText(path, $"\n{DateTime.Now.ToString()}");
-            File.AppendAllText(path, $"\ntotal amount of {table.TotalAmount()} euro");
+            File.WriteAllLines(filePath.Path, Orders);
+            File.AppendAllText(filePath.Path, $"\n{DateTime.Now.ToString()}");
+            File.AppendAllText(filePath.Path, $"\ntotal amount of {table.TotalAmount()} euro");
         }
     }
 }

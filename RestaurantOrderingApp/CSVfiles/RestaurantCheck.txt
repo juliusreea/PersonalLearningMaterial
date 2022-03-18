@@ -1,7 +1,6 @@
-MacNCheese, price: 5,5, items ordered: 2
-Water, price: 2, items ordered: 0
-CocaCola, price: 3, items ordered: 2
+Hamburger, price: 6,5, items ordered: 1
+Water, price: 2, items ordered: 1
 
-2022-03-17 19:22:48
-total amount of 17,0 euro
+2022-03-18 05:13:36
+total amount of 8,5 euro
 2 persons were seated at Table [1]

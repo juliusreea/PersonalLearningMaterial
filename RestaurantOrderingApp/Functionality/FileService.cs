@@ -8,12 +8,11 @@ namespace RestaurantOrderingApp.Functionality
 {
     public class FileService
     {
-        public readonly string _path = @"C:\Users\Dell\source\repos\PersonalLearningMaterial\RestaurantOrderingApp\CSVfiles\";
         public List<Drink> ReadDrinksFromFile(string fileName)
         {
-            string path = $"{_path}{fileName}.csv";
+            FilePath filePath = new FilePath($"{fileName}.csv");
             List<string> lines = new List<string>();
-            lines = File.ReadAllLines(path).ToList();
+            lines = File.ReadAllLines(filePath.Path).ToList();
 
             List<Drink> drinks = new List<Drink>();
             foreach (string line in lines)
@@ -28,9 +27,9 @@ namespace RestaurantOrderingApp.Functionality
         }
         public List<Food> ReadFoodsFromFile(string fileName)
         {
-            string path = $"{_path}{fileName}.csv";
+            FilePath filePath = new FilePath($"{fileName}.csv");
             List<string> lines = new List<string>();
-            lines = File.ReadAllLines(path).ToList();
+            lines = File.ReadAllLines(filePath.Path).ToList();
 
             List<Food> foods = new List<Food>();
             foreach (string line in lines)
