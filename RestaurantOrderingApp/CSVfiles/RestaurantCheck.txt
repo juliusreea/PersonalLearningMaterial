@@ -1,5 +1,6 @@
-Hamburger, price: 6,5, items ordered: 1
+Lasagna, price: 7, items ordered: 1
+Water, price: 2, items ordered: 1
 
-2022-03-18 10:47:00
-total amount of 6,5 euro
-1 persons were seated at Table [1]
+2022-03-18 11:13:31
+total amount of 9 euro
+2 persons were seated at Table [1]

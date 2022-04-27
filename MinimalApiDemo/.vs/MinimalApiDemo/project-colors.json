@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d6dae6c7-569b-44db-ba11-cdaf0fdaaa1c": {
+      "ProjectGuid": "d6dae6c7-569b-44db-ba11-cdaf0fdaaa1c",
+      "DisplayName": "MinimalApiDemo",
+      "ColorIndex": 0
+    },
+    "9a41c96f-3c70-4ca2-b8f5-d8a53afee284": {
+      "ProjectGuid": "9a41c96f-3c70-4ca2-b8f5-d8a53afee284",
+      "DisplayName": "UserDB",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "dd78c36c-908b-46e5-bf96-479184eef819": {
+      "ProjectGuid": "dd78c36c-908b-46e5-bf96-479184eef819",
+      "DisplayName": "DataAccess",
+      "ColorIndex": 2
+    },
+    "43168b7b-51e8-4faf-8942-e7189ec34e34": {
+      "ProjectGuid": "43168b7b-51e8-4faf-8942-e7189ec34e34",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

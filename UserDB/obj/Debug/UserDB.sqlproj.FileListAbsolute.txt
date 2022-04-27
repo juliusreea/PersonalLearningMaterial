@@ -1,0 +1,6 @@
+C:\Users\Dell\source\repos\PersonalLearningMaterial\UserDB\bin\Debug\UserDB.dacpac
+C:\Users\Dell\source\repos\PersonalLearningMaterial\UserDB\obj\Debug\UserDB.sqlproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\PersonalLearningMaterial\UserDB\obj\Debug\UserDB.dll
+C:\Users\Dell\source\repos\PersonalLearningMaterial\UserDB\obj\Debug\UserDB.pdb
+C:\Users\Dell\source\repos\PersonalLearningMaterial\UserDB\bin\Debug\UserDB.dll
+C:\Users\Dell\source\repos\PersonalLearningMaterial\UserDB\bin\Debug\UserDB.pdb
