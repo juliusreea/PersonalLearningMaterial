@@ -34,6 +34,7 @@ namespace DBAtsiskaitymas.Functionalities
         public void ViewAllLecturesByStudent(Student student)
         {
             Console.WriteLine($"---{student.Name} {student.LastName } paskaitos----");
+            Console.WriteLine($"----{student.Department}---------");
             var lectures = _context.Lectures.Include(x => x.Students).Where(x => x.Students.Contains(student));
             foreach (var lecture in lectures)
             {

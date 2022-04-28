@@ -39,7 +39,7 @@ namespace DBAtsiskaitymas
 
 
             //perkeliame studenta i kita departamenta, nurodome departamenta ir paskaitu sarasa
-            var student2Transfered = procedures.TransferStudent(student2, tiksliujuDep, new() { fizika, matematika, chemija });
+            procedures.TransferStudent("rimas", "Jonaitis", fizikosDep, new() { fizika, matematika, informacinesTech });
 
 
             //atspausdiname visus departamento studentus
@@ -49,7 +49,7 @@ namespace DBAtsiskaitymas
             printer.ViewAllLecturesByDepartment(fizikosDep);
 
             //spausdiname visas paskaitas pagal studenta
-            printer.ViewAllLecturesByStudent(student2Transfered);
+            printer.ViewAllLecturesByStudent(student3);
 
         }
     }
